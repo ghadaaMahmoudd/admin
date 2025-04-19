@@ -1,0 +1,8 @@
+<div class="row g-3">
+  <div class="col-md-3" *ngFor="let item of stats">
+    <div class="card-box text-center">
+      <div class="fw-bold text-secondary">{{ item.label }}</div>
+      <div class="fs-5 text-primary mt-2">{{ item.value }}</div>
+    </div>
+  </div>
+</div>
